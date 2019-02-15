@@ -44,7 +44,7 @@ if(OMPL_INCLUDE_DIRS AND OMPL_LIBRARIES)
 		target_link_libraries(needle-planning
 			${OMPL_LIBRARIES})
 		
-		add_subdirectory(apps)
+		add_subdirectory(planning)
 		
 else(OMPL_INCLUDE_DIRS AND OMPL_LIBRARIES)
   message("Headers/Libraries not specified for OMPL; not configuring OMPL projects.")
